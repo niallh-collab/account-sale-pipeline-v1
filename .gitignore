@@ -1,0 +1,20 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+
+# Pipeline outputs (default CLI writes under account_sale_pipeline/output)
+account_sale_pipeline/output/
+
+# OS / editor (optional)
+.DS_Store
+.idea/
